@@ -103,6 +103,44 @@ body {
   margin-top: 25px;
 }
 
+.companies {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.company-logo {
+  height: 30px;
+  max-width: 90px;
+  object-fit: contain;
+}
+
+#tech-stack {
+  margin-top: 15px;
+}
+
+.tech-title {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  opacity: 0.8;
+}
+
+.tech-icons {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tech-icon {
+  font-size: 2rem;
+}
+
 .btm-btns {
   bottom: 0;
   position: absolute;
@@ -158,6 +196,16 @@ body {
   .title {
     font-size: 1.5rem;
     font-weight: 200;
+  }
+  .companies {
+    gap: 6px;
+  }
+  .company-logo {
+    height: 22px;
+    max-width: 70px;
+  }
+  .tech-icon {
+    font-size: 1.6rem;
   }
   #social img {
     margin: 0 10px;
