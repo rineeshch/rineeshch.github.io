@@ -118,6 +118,11 @@ body {
   object-fit: contain;
 }
 
+.company-arrow {
+  font-size: 1.2rem;
+  color: #78cc6d;
+}
+
 #tech-stack {
   margin-top: 15px;
 }
@@ -203,6 +208,9 @@ body {
   .company-logo {
     height: 22px;
     max-width: 70px;
+  }
+  .company-arrow {
+    font-size: 1rem;
   }
   .tech-icon {
     font-size: 1.6rem;
